@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConTrack.WebApi", "ConTrack.WebApi\ConTrack.WebApi.csproj", "{1131F822-1C0F-4C80-8141-5DC9E74B0A1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConTrack.WebApi", "ConTrack.WebApi\ConTrack.WebApi.csproj", "{1131F822-1C0F-4C80-8141-5DC9E74B0A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConTrack.WebApi.Infrastructure", "ConTrack.WebApi.Infrastructure\ConTrack.WebApi.Infrastructure.csproj", "{02C6B91F-64C2-43DA-B445-CED57F64C85D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1131F822-1C0F-4C80-8141-5DC9E74B0A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1131F822-1C0F-4C80-8141-5DC9E74B0A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1131F822-1C0F-4C80-8141-5DC9E74B0A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C6B91F-64C2-43DA-B445-CED57F64C85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C6B91F-64C2-43DA-B445-CED57F64C85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C6B91F-64C2-43DA-B445-CED57F64C85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C6B91F-64C2-43DA-B445-CED57F64C85D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
